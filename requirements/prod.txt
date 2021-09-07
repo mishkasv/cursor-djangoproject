@@ -2,3 +2,7 @@
 
 gunicorn
 
+#temporary
+
+django-debug-toolbar
+
