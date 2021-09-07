@@ -7,10 +7,10 @@ services:
       dockerfile: docker/containers/api.prod.Dockerfile
     container_name: dealer_api
     volumes:
-      - .:/car_dealer
+      - .:/dealer
       - ../static:/static
       - ../media:/media
-    command: trello/docker/scripts/api.entrypoint.prod.sh
+    command: dealer/docker/scripts/api.entrypoint.prod.sh
     env_file:
       - ./docker/envs/.env-prod
 #    ports:

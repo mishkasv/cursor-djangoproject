@@ -8,4 +8,4 @@ RUN chmod +x /dealer/docker/scripts/api.entrypoint.prod.sh && \
     chmod +x /dealer/docker/scripts/wait-for-it.sh
 
 RUN pip install --upgrade pip \
-    && pip install --no-cache-dir -r /trello/requirements/prod.txt
+    && pip install --no-cache-dir -r /dealer/requirements/prod.txt
